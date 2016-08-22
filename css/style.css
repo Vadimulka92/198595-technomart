@@ -1,0 +1,95 @@
+html {
+
+}
+body {
+  font-family: cuprum, pt-sans;
+  marin: 0;
+  padding: 0;
+}
+.container {
+  magrin-left: auto;
+  margin-right: auto;
+  width: 940;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+div {
+  border: solide black 1;
+}
+section {
+  border: solide black 1;
+  display: block;
+}
+li {
+  display: inline-block;
+}
+.main-header {
+  min-height: 322;
+}
+.main-info-item {
+  min-height: 158;
+  float: left;
+  width: 315;
+}
+.main-nav {
+  min-height: 50;
+}
+main {
+  min-height: 2532;
+}
+.nav-button-slide {
+  position: absolute;
+  top: 522;
+  clear:both;
+  min-height: 266;
+  width: 620;
+  margin: 20;
+
+}
+.nav-button {
+  min-height: 120;
+  width: 300;
+  margin: 20;
+}
+.header-popular {
+  min-height: 88;
+  width: 940;
+}
+.popular-goods-item {
+  width: 220;
+  min-height: 320;
+  margin: 20;
+  margin-left: 0;
+  float: left;
+}
+.popular-goods-item:last-child {
+  margin-right: 0;
+}
+.producer {
+  width: 220;
+  min-height: 144;
+  margin: 20;
+  margin-left: 0
+}
+.producer:nth-child(4n) {
+  margin-right: 0;
+}
+.about-of-company-item {
+  min-height: 536;
+  float: left;
+}
+.main-footer {
+  min-height: 300;
+}
+.top-footer {
+  min-height: 192;
+}
+.bottom-footer {
+  min-height: 108;
+}
+.bottom-footer-item {
+  width: auto;
+}
